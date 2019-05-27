@@ -2,13 +2,17 @@
 ## Transform add to cart button into a quantity selector
 ## Allow admin to restrict maximum quantity allowed on buttons 
 
-###Notes:
-- This is a proof of concept with limited scope
-- no plugin maintenance hooks
-- no robust error handling or gracefull fallbacks
-- no logging
-- no secure validation guaranteed
-- no automated testing
+### Notes:
+This is a proof of concept with limited scope.
+
+Out of scope:
+
+- plugin maintenance hooks
+- do hooks and filter, for other plugins extension 
+- robust error handling and graceful fallbacks
+- logging
+- secure validation 
+- automated testing
 
 Ref:
 
