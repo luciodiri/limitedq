@@ -173,16 +173,21 @@ jQuery( function( $ ) {
                     // update item new quantity
                     $button.parent().find('.lq-curr-quantity').text(response['quantity']);
 
+                    $button.removeClass( 'loading' );
+                    $button.addClass( 'added' );
+
                 });
             }
             else {
                 // else Update quantity counter. (yes, this is a not reliable/robust shortcut, for saving ajax call)
                 new_q = parseInt(quantity_el.text()) + 1;
                 quantity_el.text(new_q);
+
+                $button.removeClass( 'loading' );
+                $button.addClass( 'added' );
             }
 
-            $button.removeClass( 'loading' );
-            $button.addClass( 'added' );
+
 
             $( document.body ).trigger( 'wc_cart_button_updated', [ $button ] );
         }
