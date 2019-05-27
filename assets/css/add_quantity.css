@@ -1,0 +1,34 @@
+.products .limitedq-button {
+    color:#4ef40e;
+    border:1px solid #4ef40e;
+    padding: 0.1em 1em;
+    position: relative;
+}
+.limitedq-button:hover {
+    cursor:default;
+    background-color: #eeeeee!important;
+}
+.lq-curr-quantity {
+    padding: 0 2em ;
+}
+.limitedq-button a {
+    color:#4ef40e;
+    padding:0 1em;
+}
+.limitedq-button a:hover {
+    cursor:pointer;
+}
+.limitedq-button span {
+    color:#4ef40e;
+}
+.lq-disabled {
+    opacity: 0.3;
+    cursor: pointer;
+}
+.limitedq-full-msg {
+    position: relative;
+    bottom: 0;
+    right: 0;
+    color: grey;
+    font-size: 70%;
+}
